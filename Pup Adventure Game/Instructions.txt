@@ -1,0 +1,21 @@
+
+
+2. keep track of how many trinkets collected and personal resource 
+	1.trinkets:buddy buiscuts
+	2.personal resource: health
+(accumulation varible? for loop and whileloop?)
+
+5.Have to have 3 enemies encountered 
+	1. element of random chance 
+
+random int 
+6.The game cannot be infinite 
+	1. make it to goal or not: chest full of dog treats and toys 
+	2.without errors
+7.Output total number of:
+	1. chosen trinkets collected 
+	2. final amount of personal resource
+
+generate random int 
+if statement run condition 
+
