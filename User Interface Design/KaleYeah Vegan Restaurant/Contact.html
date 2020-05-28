@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="kale.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="mustache.js"></script>
+</head>
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Home.html">
+          <div role="img"
+            aria-label="This is an image of Kale Yeah written in cursive. The image is in black and white and serves as the sites logo.">
+          </div>
+          <img
+            src="https://ctl.s6img.com/society6/img/ODTyXL9srvelDwtmQzh7Qhe9Taw/w_1500/coffee-mugs/swatch/~artwork,fw_4602,fh_1998,fx_902,fy_-1235,iw_4600,ih_4600/s6-original-art-uploads/society6/uploads/misc/bf065ca362174afca87b62833070df4d/~~/kale-yeah1412615-mugs.jpg"
+            style="max-width: 110px; margin-top:5px;">
+        </a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"></li>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Appitizers.html">Menu</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Location.html">Map</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Contact Us!</h1>
+    <p>Come say hello or tell us what you're thinking!</p>
+    <p>We will get back to you within 24 hours.</p>
+  </div>
+  <div class="row">
+    <div class="col-sm-5">
+      <img src="contact 1.jpg" style="width:100%;margin-left: 15px;">
+    </div>
+    
+
+  <form onsubmit="contactSubmit()">
+  <div class="col-sm-6 slideanim">
+    <div class="row">
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+      </div>
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+      </div>
+    </div>
+    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="10"></textarea><br>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <button class="btn btn-default pull-right" type="submit">Send</button>
+      </div>
+    </div>
+  </div>
+</form>
+  <script>
+    function contactSubmit() {
+      alert("Your message to us has been submitted! We'll get back to you within 24 hours.");
+    }
+  </script>
+</div>
+
+</body>
+</html>
